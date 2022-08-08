@@ -10,8 +10,8 @@ class Television:
 
     def __init__(self) -> None:
         """
-        Constructor that creates the initial state of the tv remote control object
-        sets channel and volume to their minimums and status to off
+        This is a Constructor that creates the initial state of the tv remote control object,
+        which sets channel to its minimum and volume to its minimum and status to off
         :return: None
         """
         self.__channel = Television.MIN_CHANNEL
